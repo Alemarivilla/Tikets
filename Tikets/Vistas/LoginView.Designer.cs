@@ -99,6 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(430, 213);
             this.Controls.Add(this.CanelarButton);
             this.Controls.Add(this.AceptarButton);
@@ -107,6 +108,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "LoginView";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginView";
             this.Load += new System.EventHandler(this.LoginView_Load);
             this.ResumeLayout(false);

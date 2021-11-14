@@ -48,10 +48,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controladores\ClienteController.cs" />
+    <Compile Include="Controladores\EstadoController.cs" />
     <Compile Include="Controladores\LoginController.cs" />
+    <Compile Include="Controladores\TicketsController.cs" />
+    <Compile Include="Controladores\TipoSoporteController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
     <Compile Include="Modelos\DAO\ClienteDAO.cs" />
     <Compile Include="Modelos\DAO\Conexion.cs" />
+    <Compile Include="Modelos\DAO\EstadoDAO.cs" />
+    <Compile Include="Modelos\DAO\TicketDAO.cs" />
+    <Compile Include="Modelos\DAO\TipoSoporteDAO.cs" />
     <Compile Include="Modelos\DAO\UsuarioDAO.cs" />
     <Compile Include="Modelos\Entidades\Cliente.cs" />
     <Compile Include="Modelos\Entidades\Estado.cs" />
@@ -117,11 +123,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\ClientesView.resx">
+      <DependentUpon>ClientesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\EstadoView.resx">
+      <DependentUpon>EstadoView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Vistas\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\MenuView.resx">
       <DependentUpon>MenuView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\TiketView.resx">
+      <DependentUpon>TiketView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\TipoSoporteView.resx">
+      <DependentUpon>TipoSoporteView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\UsuariosView.resx">
       <DependentUpon>UsuariosView.cs</DependentUpon>

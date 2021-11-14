@@ -58,5 +58,41 @@ namespace Tikets.Vistas
         {
             clientes = null;
         }
+
+        private void iniciarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LoginView login = new LoginView();
+            login.Show();
+        }
+
+        private void crearUsuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuariosView usuario = new UsuariosView();
+            usuario.Show();
+        }
+
+        private void ingresarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TiketView tiket = new TiketView();
+            tiket.Show();
+        }
+
+        private void registrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ClientesView cliente = new ClientesView();
+            cliente.Show();
+        }
+
+        private void ingresarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            TipoSoporteView tipoSoporte = new TipoSoporteView();
+            tipoSoporte.Show();
+        }
+
+        private void agregarEstadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EstadoView estado = new EstadoView();
+            estado.Show();
+        }
     }
 }

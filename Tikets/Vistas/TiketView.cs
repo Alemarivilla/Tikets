@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Tikets.Controladores;
 
 namespace Tikets.Vistas
 {
@@ -15,6 +16,7 @@ namespace Tikets.Vistas
         public TiketView()
         {
             InitializeComponent();
+            TicketsController controlador = new TicketsController(this);
         }
     }
 }
