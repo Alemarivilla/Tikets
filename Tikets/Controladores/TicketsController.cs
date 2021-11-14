@@ -68,7 +68,7 @@ namespace Tikets.Controladores
             ticket.IdCliente = Convert.ToInt32(vista.textBox1.Text);
             ticket.IdEstado = Convert.ToInt32(vista.textBox2.Text);
             ticket.IdTipoSoporte = Convert.ToInt32(vista.textBox3.Text);
-            ticket.IdUsuario =Convert.ToInt32(vista.textBox4.Text);
+            ticket.IdUsuario = Convert.ToInt32(vista.textBox4.Text);
 
             if (operacion == "Nuevo")
             {
@@ -82,7 +82,7 @@ namespace Tikets.Controladores
                 }
                 else
                 {
-                    MessageBox.Show("No se pudo crear el ticket");
+                    MessageBox.Show("No se pudo crear ticket");
                 }
             }
 

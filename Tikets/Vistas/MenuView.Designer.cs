@@ -39,7 +39,6 @@
             this.registrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tiketsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verTiketsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tiposDeSoporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.estadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,15 +81,16 @@
             // iniciarSesiónToolStripMenuItem
             // 
             this.iniciarSesiónToolStripMenuItem.Name = "iniciarSesiónToolStripMenuItem";
-            this.iniciarSesiónToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.iniciarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.iniciarSesiónToolStripMenuItem.Text = "Iniciar Sesión";
             this.iniciarSesiónToolStripMenuItem.Click += new System.EventHandler(this.iniciarSesiónToolStripMenuItem_Click);
             // 
             // cerrarSesiónToolStripMenuItem
             // 
             this.cerrarSesiónToolStripMenuItem.Name = "cerrarSesiónToolStripMenuItem";
-            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
-            this.cerrarSesiónToolStripMenuItem.Text = "Cerrar Sesión";
+            this.cerrarSesiónToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cerrarSesiónToolStripMenuItem.Text = "Salir";
+            this.cerrarSesiónToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesiónToolStripMenuItem_Click);
             // 
             // usuariosToolStripMenuItem
             // 
@@ -125,8 +125,7 @@
             // tiketsToolStripMenuItem
             // 
             this.tiketsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresarToolStripMenuItem,
-            this.verTiketsToolStripMenuItem});
+            this.ingresarToolStripMenuItem});
             this.tiketsToolStripMenuItem.Name = "tiketsToolStripMenuItem";
             this.tiketsToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.tiketsToolStripMenuItem.Text = "Tikets";
@@ -137,12 +136,6 @@
             this.ingresarToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
             this.ingresarToolStripMenuItem.Text = "Ingresar";
             this.ingresarToolStripMenuItem.Click += new System.EventHandler(this.ingresarToolStripMenuItem_Click);
-            // 
-            // verTiketsToolStripMenuItem
-            // 
-            this.verTiketsToolStripMenuItem.Name = "verTiketsToolStripMenuItem";
-            this.verTiketsToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
-            this.verTiketsToolStripMenuItem.Text = "Ver Tikets";
             // 
             // tiposDeSoporteToolStripMenuItem
             // 
@@ -207,7 +200,6 @@
         private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tiketsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem verTiketsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tiposDeSoporteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem estadosToolStripMenuItem;

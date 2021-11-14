@@ -20,8 +20,8 @@ namespace Tikets.Modelos.DAO
             {
                 StringBuilder sql = new StringBuilder();
                 sql.Append(" INSERT INTO TICKET ");
-                sql.Append(" VALUES (@Numero, @IdTipoSoporte, @IdEstado, @Usuario, @IdCliente); ");
-                
+                sql.Append(" VALUES (@Numero @IdTipoSoporte, @IdEstado, @IdUsuario,@IdCliente); ");
+
                 MiConexion.Open();
                 comando.CommandType = CommandType.Text;
                 comando.CommandText = sql.ToString();

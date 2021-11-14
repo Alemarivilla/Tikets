@@ -94,5 +94,11 @@ namespace Tikets.Vistas
             EstadoView estado = new EstadoView();
             estado.Show();
         }
+
+        private void cerrarSesiónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MenuView menu = new MenuView();
+            menu.Close();
+        }
     }
 }
